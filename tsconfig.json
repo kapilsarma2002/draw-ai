@@ -4,5 +4,6 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" },
     { "path": "./tsconfig.worker.json" }
-  ]
+  ],
+  "exclude": ["src/worker.ts", "src/agent.ts", "src/tools.ts"]
 }
